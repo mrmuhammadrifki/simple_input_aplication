@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SimpeInputApp</string>
+    <string name="masukan_sebuah_nama">Masukan Sebuah Nama</string>
+    <string name="tampilkan">tampilkan</string>
+    <string name="output">Output</string>
+</resources>

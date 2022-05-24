@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/masukan_sebuah_nama"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:typeface="monospace"
+        tools:ignore="Autofill,TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bt_tampilkan"
+        android:text="@string/tampilkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_marginTop="38dp"
+        android:text="@string/output"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
